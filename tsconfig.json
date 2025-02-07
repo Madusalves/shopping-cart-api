@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "baseUrl": "./src",
+      "paths": { // Aliases to simplify module imports
+        "@models/*": ["models/*"],
+        "@routes/*": ["routes/*"],
+        "@services/*": ["services/*"]
+      },
+      "module": "NodeNext", // Specifies the module system to be used (for ES module support in Node.js)
+        "moduleResolution": "NodeNext",
+        "target": "ESNext",
+        "esModuleInterop": true
+
+    }
+  }
+  
