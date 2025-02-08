@@ -63,7 +63,7 @@ curl -X DELETE http://localhost:3000/checkout/remove \
 
 ### 4️⃣ Complete the purchase (Checkout)
 ```sh
-curl -X POST http://localhost:3000/checkout/complete
+curl -X POST http://localhost:3000/checkout/total
 ```
 **Description:** Completes the purchase by applying promotions.
 
@@ -77,12 +77,7 @@ curl -X POST http://localhost:3000/checkout/complete
 - **Express.js**
 - **TypeScript**
 
-## 📌 Future Improvements
-- Add persistence with a database (MongoDB or PostgreSQL)
-- Implement user authentication
-- Create automated tests
-
 ---
 
-✌ Made with ❤️ by [Your Name]
+✌ Made with ❤️ by [Madusalves]
 
