@@ -1,13 +1,3 @@
-## 📌 Plano para Implementação do Backend
-
-1. **Criar a estrutura do projeto**  
-2. **Definir os modelos dos produtos e do carrinho**  
-3. **Criar rotas para adicionar e remover itens do carrinho**  
-4. **Implementar a lógica de promoções**  
-5. **Criar a rota para calcular o preço final**  
-6. **Testar a API**
-
-[Lighthouse Backend Challenge.pdf](https://github.com/user-attachments/files/18715579/Lighthouse.Backend.Challenge.pdf)
 # Lighthouse Backend Challenge - Shopping Cart
 
 This project implements a checkout system with promotions using **Node.js**, **Express.js**, and **TypeScript**.
@@ -31,6 +21,15 @@ npm run dev
 ```
 
 The server will start at `http://localhost:3000`.
+
+## 📌 Implementation Plan
+
+1. **Create the project structure**  
+2. **Define product and cart models**  
+3. **Create routes to add and remove cart items**  
+4. **Implement promotion logic**  
+5. **Create a route to calculate the final price**  
+6. **Test the API**  
 
 ## 📌 API Routes
 
@@ -64,7 +63,7 @@ curl -X DELETE http://localhost:3000/checkout/remove \
 
 ### 4️⃣ Complete the purchase (Checkout)
 ```sh
-curl -X POST http://localhost:3000/checkout/total
+curl -X POST http://localhost:3000/checkout/complete
 ```
 **Description:** Completes the purchase by applying promotions.
 
@@ -78,9 +77,12 @@ curl -X POST http://localhost:3000/checkout/total
 - **Express.js**
 - **TypeScript**
 
+## 📌 Future Improvements
+- Add persistence with a database (MongoDB or PostgreSQL)
+- Implement user authentication
+- Create automated tests
+
 ---
 
-✌ Made with ❤️ by [MADUSALVES]
-
-
+✌ Made with ❤️ by [Your Name]
 
