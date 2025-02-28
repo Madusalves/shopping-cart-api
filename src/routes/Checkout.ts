@@ -57,6 +57,10 @@ router.put("/update/:sku", (req, res) => {
   }
 });*/
 
+router.get("/cart", (req, res) => {
+  const items = cart.getItems();
+  res.json({ items });
+});
 
 
 router.get("/total", (req, res) => {
