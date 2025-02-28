@@ -30,14 +30,14 @@ export class Cart {
   getItems() {
     return this.items;
   }
-
+  /*
   updateItemQuantity(sku: string, quantity: number){
     const item = this.items.find(item => item.product.sku === sku);
     if (!item) {
       throw new Error ("Product not found");
     }
     item.quantity = quantity;
-  }
+  }*/
 
   // Method to clear the cart (remove all items)
   clear() {

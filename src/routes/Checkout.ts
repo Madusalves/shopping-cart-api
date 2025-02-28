@@ -27,7 +27,7 @@ router.post("/remove", (req, res) => {
   res.json({ message: "Item removed from cart!", cart: cart.getItems() });
 });
 
-
+/*
 router.put("/update", (req: Request, res: Response) => {
   const { sku, quantity } = req.body;
 
@@ -39,7 +39,7 @@ router.put("/update", (req: Request, res: Response) => {
   }
 });
 
-/*
+
 router.put("/update/:sku", (req, res) => {
   const { sku } = req.params;  // get the string
   const { quantity } = req.body;  // quantity 
